@@ -149,9 +149,9 @@ public class LDAPTest extends JFrame {
 			setBackground(bgColor);
 
 			addRow( initialContextFactory = new Row("Initial Context Factory:", "com.sun.jndi.ldap.LdapCtxFactory") );
-			addRow( providerURL = new Row("Provider URL:", "ldaps://ldap.p-ent.med.umich.edu:636") );
+			addRow( providerURL = new Row("Provider URL:", "ldaps://ldap.myuniversity.edu:636") );
 			addRow( securityAuthentication = new Row("Security Authentication:", "simple") );
-			addRow( securityPrincipal = new Row("Security Principal:", "cn=username, ou=people, dc=med, dc=umich, dc=edu") );
+			addRow( securityPrincipal = new Row("Security Principal:", "cn=username, ou=people, dc=myuniversity, dc=edu") );
 			addRow( securityCredentials = new PasswordRow("Security Credentials:", "password") );
 			addRow( baseDN = new Row("Base DN:", "") );
 
